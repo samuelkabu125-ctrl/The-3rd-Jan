@@ -4,7 +4,30 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>3rd January | Mental Health Awareness</title>
-  <style>
+  <style>.newsletter {
+  background: #eafaf1;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.newsletter input {
+  padding: 12px;
+  width: 250px;
+  max-width: 80%;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.newsletter button {
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: none;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -141,7 +164,23 @@
     <p>Email: <strong>info@3rdjanuary.org</strong></p>
   </section>
 
-  <footer>
+  <footer><section class="newsletter">
+  <h2>Stay Connected</h2>
+  <p>
+    Sign up for gentle reminders, mental health resources,
+    and updates from <strong>3rd January</strong>.
+  </p>
+
+  <form action="https://formspree.io/f/xxxxxx" method="POST">
+    <input type="email" name="email" placeholder="Your email address" required>
+    <button type="submit">Subscribe</button>
+  </form>
+
+  <p style="font-size:0.9em; margin-top:10px;">
+    We respect your privacy. No spam.
+  </p>
+</section>
+
     <p>&copy; 2026 3rd January</p>
     <p>Mental Health. New Beginnings.</p>
   </footer>
